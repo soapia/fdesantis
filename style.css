@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Cooper;
+    src: url(COOPBL.ttf);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.jumbotron {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/medium/2/pastel-curvy-rainbow-gradient-kelsey-lovelle.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron img {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  bottom: 0;
+  left: 0;
+  vertical-align: bottom;
+}
+
+h1 {
+  color: white;
+  font-family: Cooper;
+  padding: 3em 0.5em 0em 0.5em;
+  font-size: 3.5em;
+  -webkit-text-stroke: black 1px;
+}
+
+h2 {
+  font-family: Cooper;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  -webkit-text-stroke: black 0.75px;
+  padding: 1em 0.5em 0em 0.5em;
+}
+
+.info {
+  background-color: #ff9696;
+  padding-bottom: 2em;
+}
+
+.card {
+/*   margin: 1em !important; */
+}
+
+small {
+  font-size: 0.5em;
+  -webkit-text-stroke: black 0.5px;
+}
+
+.gamediv {
+  background-color: #FCCF96;
+  text-align: center;
+  align-items: center;
+}
+
+.gamediv img {
+  padding: 1em;
+  width: 70%;
+}
+
+.vote {
+  background-color: #FFF496;
+}
+
+@media screen and (min-width: 600px) {
+  .jumbotron img {
+    left: 50%;
+    margin-left: -300px;
+  }
+  h1 {
+    padding-top: 1.5em;
+    font-size: 4.5em;
+  }
+  
+}
